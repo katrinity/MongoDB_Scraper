@@ -1,0 +1,103 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+}
+
+.navbar-toggler-icon {
+    color: blue;
+}
+
+.jumbotron {
+    background-image: url(/assets/images/sf2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    color: darkblue;
+   
+}
+
+h1 {
+    font-size: -webkit-xxx-large;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.nav-link,
+.navbar-brand {
+    color: darkblue;
+    
+}
+
+.nav-tab {
+    font-size: unset;
+    margin-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: solid;
+    font-size: x-large;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: darkblue;
+}
+
+.card {
+    margin: 10px;
+    align-content: center;
+}
+
+.card-header {
+    background-color: darkblue;
+    color: white;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.save .addNote {
+    background-color: darkblue;
+    float: right;
+    margin-top: 0%;
+}
+
+footer {
+    height: 50px;
+    margin-left: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+   
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+.modal-header, .modal-footer {
+    background-image: url(/assets/images/sf3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-title {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: darkblue;
+}
