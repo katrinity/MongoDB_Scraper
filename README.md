@@ -23,10 +23,13 @@ user can scroll down to see scraped articles and save
 <img width="707" alt="Screen Shot 2020-02-08 at 6 18 30 PM" src="https://user-images.githubusercontent.com/42060484/74095300-a402e800-4aa3-11ea-8cbe-8491710916a9.png">
 
 
-User can delete article or leave a note   
+User can delete article  
 
 <img width="590" alt="Screen Shot 2020-02-08 at 6 19 26 PM" src="https://user-images.githubusercontent.com/42060484/74095309-c3017a00-4aa3-11ea-8788-9076d04e087a.png">
 
+
+
+and leave a note  
 
 
 <img width="620" alt="Screen Shot 2020-02-08 at 7 00 22 PM" src="https://user-images.githubusercontent.com/42060484/74095425-44a5d780-4aa5-11ea-8940-6e807b52f284.png">
