@@ -31,11 +31,11 @@ User can delete article or leave a note
 
 <img width="620" alt="Screen Shot 2020-02-08 at 7 00 22 PM" src="https://user-images.githubusercontent.com/42060484/74095425-44a5d780-4aa5-11ea-8940-6e807b52f284.png">
 
-#Technology Used#
+# Technology Used #
 
-*Node.js
-*Express.js
-*Handlebars.js
-*MongoDB
-*Mongoose
-*npm packages (check dependencies)
+* Node.js
+* Express.js
+* Handlebars.js
+* MongoDB
+* Mongoose
+* npm packages (check dependencies)
