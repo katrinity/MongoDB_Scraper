@@ -56,12 +56,16 @@ db.once("open", function () {
 //GET requests to render Handlebars pages
 app.get("/", function (req, res) {
   Article.find({ "saved": false }, function (error, data) {
-    var hsbObject = {
-      article: data
-    };
-    console.log(hsbObject);
-    res.render("home", hsbObject);
-  });
+
+  })
+    .then(function (results) {
+      var hsbObject = {
+        article: results
+      };
+      console.log(hsbObject);
+      res.render("home", hsbObject);
+
+    })
 });
 
 app.get("/saved", function (req, res) {
