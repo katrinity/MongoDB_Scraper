@@ -56,9 +56,9 @@ db.once("open", function () {
 //GET requests to render Handlebars pages
 app.get("/", function (req, res) {
   Article.find({ "saved": false }, function (error, data) {
-    if (data.length === 0 || error) {
-      res.render('error', { errorMsg: "Error blah blah" })
-    }
+    // if (data.length === 0 || error) {
+    //   res.render('error', { errorMsg: "Error blah blah" })
+    // }
   })
     .then(function (results) {
       var hsbObject = {
